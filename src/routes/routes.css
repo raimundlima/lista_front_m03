@@ -1,0 +1,9 @@
+.routes{
+  width: 80%;
+  height: clamp(100vh,100vh,100%);
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
