@@ -11,9 +11,9 @@ const Create = () => {
 
   const onSubmit = async (values, { resetForm }) => {
     await Api.post('/add', values).then(tarefa => {
-      toast.success("Sucesso!");
+      toast.success("tarefa adicionada com sucesso!");
       resetForm();
-    }).catch(() => {toast.error("Erro!");})
+    }).catch(() => {toast.error("Tente novamente!");})
   }
 
   function validate(values) {
